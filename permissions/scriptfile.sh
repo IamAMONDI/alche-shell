@@ -16,7 +16,7 @@ echo -e '#!/bin/bash\nchown -h vincent:staff _hello' > 15-symbolic_link_permissi
 echo -e '#!/bin/bash\nchown --from=guillame vincent hello' > 16-if_only
 
 
-chmod +x 2-groups  3-new_owner  4-empty hello 5-execute 6-multiple_permissions 7-everybody
+chmod +x 2-groups  3-new_owner  4-empty hello 5-execute 6-multiple_permissions 7-everybody 8-James_Bond 9-John_Doe 10-mirror_permissions 11-directories_permissions 12-directory_permissions 13-change_group 14-change_owner_and_group 15-symbolic_link_permissions 16-if_only
 git add .
 git commit -m "main script file"
 git push 
