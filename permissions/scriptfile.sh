@@ -4,7 +4,7 @@ echo -e '#!/bin/bash\ngroups' > 2-groups
 echo -e '#!/bin/bash\nchown betty hello' > 3-new_owner
 echo -e '#!/bin/bash\ntouch hello' > 4-empty
 echo -e '#!/bin/bash\nchmod 744 hello' > 5-execute
-echo -e '#!/bin/bash\n-rwxr-xr- hello' >  6-multiple_permissions
+echo -e '#!/bin/bash\n-rwxrwxr- hello' >  6-multiple_permissions
 echo -e '#!/bin/bash\nchmod 777 hello' > 7-everybody
 
 
