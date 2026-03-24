@@ -8,7 +8,7 @@ echo -e '#!/bin/bash\nchmod ugo+x hello' > 7-everybody
 echo -e '#!/bin/bash\nchmod 007 hell' > 8-James_Bond
 echo -e '#!/bin/bash\nchmod 753 hello' > 9-John_Doe
 echo -e '#!/bin/bash\nchmod --reference=olleh hello' > 10-mirror_permissions
-echo -e '#!/bin/bash\nchmod -R ugo+x' >  11-directories_permissions
+echo -e '#!/bin/bash\nchmod -R a+X' >  11-directories_permissions
 echo -e '#!/bin/bash\nmkdir -m 751 my_dir' > 12-directory_permissions
 sudo groupadd school
 echo -e '#!/bin/bash\nchgrp school hello' > 13-change_group
