@@ -8,7 +8,7 @@ echo -e '#!/bin/bash\nchomd 774 hello' >  6-multiple_permissions
 echo -e '#!/bin/bash\nchmod 777 hello' > 7-everybody
 
 
-chmod +x 2-groups  3-new_owner  4-empty 
+chmod +x 2-groups  3-new_owner  4-empty hello 5-execute 6-multiple_permissions 7-everybody
 git add .
 git commit -m "main script file"
 git push 
