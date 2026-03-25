@@ -1,5 +1,4 @@
 #!/bin/bash
-chmod +x 4-lastlines
 git add .
 git commit -m "Writes some sort of script for Shell, I/O Redirections and filters."
 git push
