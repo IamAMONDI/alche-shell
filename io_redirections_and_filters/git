@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x  2-hellofile 
+chmod +x 3-twofiles
 git add .
-git commit -m "Display the content of the /etc/passwd file."
+git commit -m "Display the content of /etc/passwd and /etc/hosts."
 git push
