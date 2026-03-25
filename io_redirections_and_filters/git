@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x 3-twofiles
+chmod +x 4-lastlines
 git add .
-git commit -m "Display the content of /etc/passwd and /etc/hosts."
+git commit -m "Writes some sort of script for Shell, I/O Redirections and filters."
 git push
