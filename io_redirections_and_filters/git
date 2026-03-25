@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x 1-confused_smiley 
+chmod +x  2-hellofile 
 git add .
-git commit -m "displays a confused smiley"
+git commit -m "Display the content of the /etc/passwd file."
 git push
