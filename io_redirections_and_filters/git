@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod +x 1-confused_smiley 
 git add .
 git commit -m "displays a confused smiley"
 git push
