@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( WATER + STIR ))
+echo ${bestchol_base:$(expr index "$bestchol_base" "$WATER")-1}$(expr index "$bestchol_base" "$STIR"-1)
