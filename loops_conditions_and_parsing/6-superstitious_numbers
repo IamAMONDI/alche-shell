@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #uses  the if, elif and else statements
 counter=1
 
