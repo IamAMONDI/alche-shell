@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#lists file names
 for file in *; do
     if [ -e "$file" ]; then
         echo "${file#*-}"
