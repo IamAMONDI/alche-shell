@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#this code uses until loop to say best school 10 times
 i=11
 until [ $i == 1 ];
 do
