@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#reads the file
+while IFS=: read -r username password uid gid gecos home shell; do
+    echo "Username: $username"
+    echo "User ID: $uid"
+    echo "Home Directory: $home"
+    echo "---"
+done < /etc/passwd
