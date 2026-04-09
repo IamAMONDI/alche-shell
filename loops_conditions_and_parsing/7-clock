@@ -10,6 +10,6 @@ do
         echo "$minute"
         ((minute++))
     done
-    echo "Hour:$hour"
+    echo "Hour: $hour"
     ((hour++))
 done
