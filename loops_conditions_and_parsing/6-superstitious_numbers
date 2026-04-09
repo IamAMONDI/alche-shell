@@ -9,7 +9,7 @@ do
             echo $counter
             echo "bad luck from China"
             ;;
-        7)
+        9)
             echo $counter
             echo "bad luck from Japan"
             ;;
