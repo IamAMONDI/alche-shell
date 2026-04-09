@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #reads the file
-while IFS=: read -r username password uid gid gecos home shell; do
+while IFS=: read -r username uid home; do
     echo "Username: $username"
     echo "User ID: $uid"
     echo "Home Directory: $home"
